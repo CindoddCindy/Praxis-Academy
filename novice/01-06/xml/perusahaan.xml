@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<perusahaan>
+    <karyawan nip="10106031">
+        <nama>Eko</nama>
+        <email>eko@gmail.com</email>
+    </karyawan>
+    <karyawan nip="10106032">
+        <nama>Khannedy</nama>
+        <email>khannedy@gmail.com</email>
+    </karyawan>
+</perusahaan>
