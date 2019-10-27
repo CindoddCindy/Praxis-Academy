@@ -1,0 +1,5 @@
+enum JenisBaju{
+   BLOUSE, KEMEJA, CARDIGAN, DRESS, TSHIRT; 
+
+
+}
