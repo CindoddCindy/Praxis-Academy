@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JsonDecodeDemo",
+            "request": "launch",
+            "mainClass": "JsonDecodeDemo",
+            "projectName": "keempat_json"
+        }
+    ]
+}
