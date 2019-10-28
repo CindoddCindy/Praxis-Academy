@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PanggilPureFunction",
+            "request": "launch",
+            "mainClass": "gradle_pure_function.PanggilPureFunction",
+            "projectName": "gradle_pure_function"
+        }
+    ]
+}
