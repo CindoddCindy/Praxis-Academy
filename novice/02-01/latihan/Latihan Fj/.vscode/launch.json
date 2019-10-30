@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array_foldLeft",
+            "request": "launch",
+            "mainClass": "Fungsional.Array_foldLeft",
+            "projectName": "Fungsional"
+        }
+    ]
+}
