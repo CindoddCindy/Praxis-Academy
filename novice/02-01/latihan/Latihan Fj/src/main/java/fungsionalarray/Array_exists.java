@@ -1,10 +1,12 @@
 package fungsionalarray;
 
-
+import fj.F;
 import fj.data.Array;
 import static fj.data.Array.array;
 import static fj.data.List.fromString;
 import static fj.function.Characters.isLowerCase;
+import java.util.ArrayList;
+
 
 public final class Array_exists {
     public static void main(final String[] args) {
