@@ -6,14 +6,12 @@
  * user guide available at https://docs.gradle.org/5.1/userguide/tutorial_java_projects.html
  */
 
-
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
 
     // Apply the application plugin to add support for building an application
     id 'application'
-   
 }
 
 repositories {
@@ -25,20 +23,27 @@ repositories {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:26.0-jre'
-    implementation 'org.mariadb.jdbc:mariadb-java-client:2.4.2'
-    
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+  //  implementation 'org.mariadb.jdbc:mariadb-java-client:2.4.2'
+
+  implementation 'org.mariadb.jdbc:mariadb-java-client:2.4.2'
+    
+
+    // Use JUnit test framework
+   // testImplementation 'junit:junit:4.12'
     runtime "org.mariadb.jdbc:mariadb-java-client:2.4.2"
     
     
+
+   // runtime "org.mariadb.jdbc:mariadb-java-client:2.4.2"
+    
 }
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 
 // Define the main class for the application
-mainClassName = 'mariadb_gradle.MariadbTest'
-
-
+mainClassName = 'maria_db_dua.JDBCExample'
