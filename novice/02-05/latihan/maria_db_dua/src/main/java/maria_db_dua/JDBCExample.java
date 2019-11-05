@@ -20,7 +20,14 @@ public class JDBCExample{
        //selectRecord.selectRecord();
 
        UpdateRecord updateRecord = new UpdateRecord();
-       updateRecord.updateRecord();
+      // updateRecord.updateRecord();
+
+      DeleteRecord deleteRecord= new DeleteRecord();
+      //deleteRecord.deleteRecord();
+      WhereClause whereClause = new WhereClause();
+      //whereClause.whereClause();
+      LikeClause likeClause = new LikeClause();
+      likeClause.likeClause();
 
     }
 
