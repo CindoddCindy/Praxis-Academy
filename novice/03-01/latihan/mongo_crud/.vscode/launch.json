@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.App",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConnectToDB<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.ConnectToDB",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreatingCollection<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.CreatingCollection",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeletingDocuments<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.DeletingDocuments",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListOfCollection<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.ListOfCollection",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RetrievingAllDocuments<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.RetrievingAllDocuments",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UpdatingDocuments<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.UpdatingDocuments",
+            "projectName": "mongo_crud"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-selectingCollection<mongo_crud>",
+            "request": "launch",
+            "mainClass": "mongo_crud.selectingCollection",
+            "projectName": "mongo_crud"
+        }
+    ]
+}
