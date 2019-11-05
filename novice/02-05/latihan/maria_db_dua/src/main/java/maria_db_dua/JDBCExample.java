@@ -27,7 +27,9 @@ public class JDBCExample{
       WhereClause whereClause = new WhereClause();
       //whereClause.whereClause();
       LikeClause likeClause = new LikeClause();
-      likeClause.likeClause();
+      //likeClause.likeClause();
+      SortingData sortingData = new SortingData();
+      sortingData.sortingData();
 
     }
 
