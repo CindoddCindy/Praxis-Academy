@@ -23,14 +23,16 @@ repositories {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:26.0-jre'
-    compile 'org.mongodb:mongo-java-driver:3.4.2'
-    compile 'org.mongodb:mongodb-driver:3.0.0-SNAPSHOT'
-     compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.6.3'
-
-
+     //mongodb driver reactivestream
+    implementation 'org.mongodb:mongodb-driver-reactivestreams:1.11.0'
+    // https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+    implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.11.0'
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    //  compile 'org.mongodb:mongodb-driver-sync:3.8.1'
+    //  compile 'org.mongodb:mongodb-driver:3.8.1'
+    //   compile 'org.mongodb:mongo-java-driver:3.8.1'
 }
 
 // Define the main class for the application
-mainClassName = 'mongo_crud.App'
+mainClassName = 'mongo_gradle_test.MongoMain'

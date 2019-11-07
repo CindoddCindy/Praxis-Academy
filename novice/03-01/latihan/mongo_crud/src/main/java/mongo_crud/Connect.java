@@ -1,7 +1,5 @@
 package mongo_crud;
-import com.mongodb.client.MongoDatabase; 
-import com.mongodb.MongoClient; 
-import com.mongodb.MongoCredential;  
+
 
 public class Connect { 
    
