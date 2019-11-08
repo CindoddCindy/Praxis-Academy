@@ -7,6 +7,7 @@ import io.micronaut.http.client.Client;
 import io.reactivex.Maybe; 
 
 @Client("inventory") 
+    
 @Requires(notEnv = Environment.TEST)
 public interface InventoryClient extends InventoryFetcher {
     @Override 

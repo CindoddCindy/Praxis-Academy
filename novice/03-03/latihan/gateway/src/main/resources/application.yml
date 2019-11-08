@@ -1,3 +1,48 @@
+#micronaut:
+  #application:
+   # name: gateway
+
+   micronaut:
+    application:
+        name: gateway 
+    server:
+        port: 8080
+consul:
+    client:
+        registration: 
+            enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+
+
+books/src/main/resources/application.yml
 micronaut:
-  application:
-    name: gateway
+    application:
+        name: books
+    server:
+        port: 8082
+consul:
+    client:
+        registration: 
+            enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+
+
+inventory/src/main/resources/application.yml
+micronaut:
+    application:
+        name: inventory
+    server:
+        port: 8081
+consul:
+    client:
+        registration: 
+            enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+
+
+  
+
+    

@@ -1,1 +1,5 @@
 rootProject.name="gateway"
+//settings.gradle
+//include 'books' 
+//include 'inventory' 
+//include 'gateway'

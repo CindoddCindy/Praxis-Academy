@@ -1,0 +1,15 @@
+consul:
+    client:
+        registration: enabled: false
+
+
+books/src/test/resources/application-test.yml
+consul:
+    client:
+        registration: enabled: false
+
+
+inventory/src/test/resources/application-test.yml
+consul:
+    client:
+        registration: enabled: false
